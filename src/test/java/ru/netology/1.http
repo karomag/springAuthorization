@@ -5,3 +5,6 @@ GET localhost:8080/authorize?user=Roman&password=456
 
 ###
 GET localhost:8080/authorize?user=Ivan&password=789
+
+###
+GET localhost:8080/authorize?user=Ivan&password=
