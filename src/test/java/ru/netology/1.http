@@ -1,0 +1,7 @@
+GET localhost:8080/authorize?user=Igor&password=123
+
+###
+GET localhost:8080/authorize?user=Roman&password=456
+
+###
+GET localhost:8080/authorize?user=Ivan&password=789
