@@ -2,6 +2,6 @@ version: '1'
 
 services:
   app1:
-    image: 'myapp:1.0'
+    image: 'devapp:1.0'
     ports:
       - '8080'

@@ -1,7 +1,7 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:17-jdk-alpine
 
-EXPOSE 8080
+EXPOSE 8081
 
-COPY target/springAuthorization-0.0.1-SNAPSHOT.jar app.jar
+COPY target/springAuthorization-0.0.1-SNAPSHOT.jar devapp.jar
 
-CMD ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "/devapp.jar"]
